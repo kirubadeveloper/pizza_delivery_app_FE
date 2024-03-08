@@ -61,9 +61,8 @@ const Header = () => {
     // Clear local storage
     localStorage.removeItem("token");
     // Redirect to login page
-    window.location.href = "/login";
+    window.location.href = "./login";
   };
-
   return (
     <header className="header" ref={headerRef}>
       <Container>
