@@ -23,8 +23,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact" style={{ display: "flex" }}>
-      <div className="mini-carousel" style={{ width: "30%", padding: "20px" }}>
+    <div
+      className="contact"
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
+      <div
+        className="mini-carousel"
+        style={{ width: "90%", maxWidth: "600px", padding: "20px" }}
+      >
         <Slider {...settings}>
           <div>
             <img src={imgThree} alt="shop1" style={{ width: "100%" }} />
@@ -41,12 +47,11 @@ const Contact = () => {
           <div>
             <img src={imgOne} alt="shop1" style={{ width: "100%" }} />
           </div>
-          {/* Add more slides as needed */}
         </Slider>
       </div>
       <div
         className="restaurant-details"
-        style={{ width: "50%", padding: "20px" }}
+        style={{ width: "90%", maxWidth: "600px", padding: "20px" }}
       >
         <div
           className="restaurant-card"
@@ -75,12 +80,12 @@ const Contact = () => {
           <p
             style={{ marginBottom: "10px", fontSize: "16px", color: "#888888" }}
           >
-            Address: 123 Street, City, Country
+            Address: 123 Street, Pondicherry, India
           </p>
           <p
             style={{ marginBottom: "10px", fontSize: "16px", color: "#888888" }}
           >
-            Phone: +1234567890
+            Phone: +91 1234567890
           </p>
           <button
             style={{
