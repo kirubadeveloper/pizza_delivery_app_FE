@@ -105,3 +105,64 @@
 	color: white;
 	margin: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.login_form_container {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.left,
+	.right {
+	  width: 100%;
+	}
+  
+	.left {
+	  margin-bottom: 20px;
+	}
+  
+	.form_container {
+	  width: 100%;
+	}
+  
+	.input,
+	.error_msg,
+	.green_btn,
+	.white_btn {
+	  width: 70%;
+	  margin-bottom: 10px;
+	}
+  
+	.right {
+	  margin-top: 20px;
+	}
+
+
+	.logo_container {
+		display: flex;
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		margin-top: 20px; /* Add margin to separate from the form */
+	  }
+	  
+	  .white_btn {
+		width: 300px; /* Make the button full width */
+		margin-top: 10px; /* Add space between the buttons */
+		margin-bottom: 30px;
+	  }
+	  
+  }
+
+  @media only screen and (max-width: 600px) {
+	.login_form_container h1 {
+	  font-size: 20px; /* Adjust the font size as needed */
+	}
+  }
+
+  @media only screen and (max-width: 600px) {
+	.right h1 {
+	  margin-top: 10px; /* Adjust the margin-top value as needed */
+	}
+  }
+  
